@@ -34,6 +34,10 @@
   backdrop-filter: blur(4px);
 }
 
+.content + .content {
+  margin-top: 1rem;
+}
+
 .createForm {
   display: grid;
   gap: 0.6rem;
@@ -57,7 +61,15 @@
 
 .createForm input,
 .createForm textarea,
+.createForm select,
 .inlineForm input {
+  border: 1px solid #c9d4e3;
+  border-radius: 8px;
+  padding: 0.55rem 0.65rem;
+  font-size: 0.9rem;
+}
+
+.inlineForm select {
   border: 1px solid #c9d4e3;
   border-radius: 8px;
   padding: 0.55rem 0.65rem;

@@ -31,28 +31,55 @@ export {
 export {
   CreateSeasonUseCase,
   ListSeasonsByTVShowUseCase,
+  ListSeasonsUseCase,
+  UpdateSeasonUseCase,
+  DeleteSeasonUseCase,
   type CreateSeasonRequest,
   type CreateSeasonResponse,
   type ListSeasonsByTVShowRequest,
   type ListSeasonsByTVShowResponse,
+  type ListSeasonsRequest,
+  type ListSeasonsResponse,
+  type UpdateSeasonRequest,
+  type UpdateSeasonResponse,
+  type DeleteSeasonRequest,
+  type DeleteSeasonResponse,
 } from "./use-cases/season";
 
 // Episode Use Cases
 export {
   CreateEpisodeUseCase,
   ListEpisodesBySeasonUseCase,
+  ListEpisodesUseCase,
+  UpdateEpisodeUseCase,
+  DeleteEpisodeUseCase,
   type CreateEpisodeRequest,
   type CreateEpisodeResponse,
   type ListEpisodesBySeasonRequest,
   type ListEpisodesBySeasonResponse,
+  type ListEpisodesRequest,
+  type ListEpisodesResponse,
+  type UpdateEpisodeRequest,
+  type UpdateEpisodeResponse,
+  type DeleteEpisodeRequest,
+  type DeleteEpisodeResponse,
 } from "./use-cases/episode";
 
 // Watchlist Use Cases
 export {
   AddToWatchlistUseCase,
   ListUserWatchlistUseCase,
+  ListWatchlistsUseCase,
+  UpdateWatchlistUseCase,
+  DeleteWatchlistUseCase,
   type AddToWatchlistRequest,
   type AddToWatchlistResponse,
   type ListUserWatchlistRequest,
   type ListUserWatchlistResponse,
+  type ListWatchlistsRequest,
+  type ListWatchlistsResponse,
+  type UpdateWatchlistRequest,
+  type UpdateWatchlistResponse,
+  type DeleteWatchlistRequest,
+  type DeleteWatchlistResponse,
 } from "./use-cases/watchlist";
