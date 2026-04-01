@@ -1,7 +1,7 @@
 /**
  * Contrato para operações de repositório de Episodes
  */
-import { Episode } from '../entities/Episode';
+import { Episode } from "../entities/Episode";
 
 export interface IEpisodeRepository {
   /**

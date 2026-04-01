@@ -2,7 +2,7 @@
  * Contrato para operações de repositório de TVShows
  * Esta interface será implementada na camada de Infrastructure
  */
-import { TVShow } from '../entities/TVShow';
+import { TVShow } from "../entities/TVShow";
 
 export interface ITVShowRepository {
   /**

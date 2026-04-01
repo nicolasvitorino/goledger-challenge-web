@@ -1,7 +1,7 @@
 /**
  * Contrato para operações de repositório de Watchlists
  */
-import { Watchlist } from '../entities/Watchlist';
+import { Watchlist } from "../entities/Watchlist";
 
 export interface IWatchlistRepository {
   /**
@@ -17,7 +17,10 @@ export interface IWatchlistRepository {
   /**
    * Busca a watchlist de um usuário para um TVShow específico
    */
-  findByUserAndTVShow(userId: string, tvShowKey: string): Promise<Watchlist | null>;
+  findByUserAndTVShow(
+    userId: string,
+    tvShowKey: string,
+  ): Promise<Watchlist | null>;
 
   /**
    * Busca com critérios customizados

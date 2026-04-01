@@ -4,7 +4,7 @@
  * Contém apenas dados e validações de negócio, sem dependências externas.
  */
 export interface ITVShow {
-  '@assetType': 'tvShows';
+  "@assetType": "tvShows";
   key: string;
   name: string;
   description?: string;
@@ -12,11 +12,11 @@ export interface ITVShow {
   releaseYear?: number;
   posterUrl?: string;
   rating?: number;
-  '@timestamp'?: string;
+  "@timestamp"?: string;
 }
 
 export class TVShow implements ITVShow {
-  '@assetType': 'tvShows' = 'tvShows';
+  "@assetType": "tvShows" = "tvShows";
   key: string;
   name: string;
   description?: string;
@@ -24,9 +24,9 @@ export class TVShow implements ITVShow {
   releaseYear?: number;
   posterUrl?: string;
   rating?: number;
-  '@timestamp'?: string;
+  "@timestamp"?: string;
 
-  constructor(data: Omit<ITVShow, '@assetType'>) {
+  constructor(data: Omit<ITVShow, "@assetType">) {
     this.key = data.key;
     this.name = data.name;
     this.description = data.description;
@@ -34,20 +34,20 @@ export class TVShow implements ITVShow {
     this.releaseYear = data.releaseYear;
     this.posterUrl = data.posterUrl;
     this.rating = data.rating;
-    this['@timestamp'] = data['@timestamp'];
-    
+    this["@timestamp"] = data["@timestamp"];
+
     this.validate();
   }
 
   private validate(): void {
     if (!this.key || this.key.trim().length === 0) {
-      throw new Error('TVShow key é obrigatório');
+      throw new Error("TVShow key é obrigatório");
     }
     if (!this.name || this.name.trim().length === 0) {
-      throw new Error('TVShow name é obrigatório');
+      throw new Error("TVShow name é obrigatório");
     }
     if (this.rating !== undefined && (this.rating < 0 || this.rating > 10)) {
-      throw new Error('TVShow rating deve estar entre 0 e 10');
+      throw new Error("TVShow rating deve estar entre 0 e 10");
     }
   }
 

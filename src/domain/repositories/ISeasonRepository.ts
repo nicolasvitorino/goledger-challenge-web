@@ -1,7 +1,7 @@
 /**
  * Contrato para operações de repositório de Seasons
  */
-import { Season } from '../entities/Season';
+import { Season } from "../entities/Season";
 
 export interface ISeasonRepository {
   /**
