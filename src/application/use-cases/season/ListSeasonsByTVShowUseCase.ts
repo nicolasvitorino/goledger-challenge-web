@@ -1,7 +1,7 @@
 /**
  * Use Case: List Seasons by TVShow
  */
-import { Season, ISeasonRepository } from "@domain";
+import { Season, ISeasonRepository } from "@/domain";
 import { IUseCase } from "../IUseCase";
 
 export interface ListSeasonsByTVShowRequest {

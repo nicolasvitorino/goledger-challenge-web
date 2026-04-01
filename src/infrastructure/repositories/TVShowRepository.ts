@@ -2,7 +2,7 @@
  * Implementação do Repository para TVShow
  * Comunica com a API GoLedger através do HttpClient
  */
-import { TVShow, ITVShowRepository } from "@domain";
+import { TVShow, ITVShowRepository } from "@/domain";
 import { HttpClient } from "../http/HttpClient";
 
 export class TVShowRepository implements ITVShowRepository {

@@ -1,7 +1,7 @@
 /**
  * Use Case: List User Watchlist
  */
-import { Watchlist, IWatchlistRepository } from "@domain";
+import { Watchlist, IWatchlistRepository } from "@/domain";
 import { IUseCase } from "../IUseCase";
 
 export interface ListUserWatchlistRequest {

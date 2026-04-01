@@ -2,7 +2,7 @@
  * Use Case: Delete TVShow
  * Responsável por deletar um TVShow
  */
-import { ITVShowRepository } from "@domain";
+import { ITVShowRepository } from "@/domain";
 import { IUseCase } from "../IUseCase";
 
 export interface DeleteTVShowRequest {

@@ -1,7 +1,7 @@
 /**
  * Implementação do Repository para Episode
  */
-import { Episode, IEpisodeRepository } from "@domain";
+import { Episode, IEpisodeRepository } from "@/domain";
 import { HttpClient } from "../http/HttpClient";
 
 export class EpisodeRepository implements IEpisodeRepository {

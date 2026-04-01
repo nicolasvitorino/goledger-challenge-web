@@ -2,7 +2,7 @@
  * Use Case: Update TVShow
  * Responsável por atualizar um TVShow existente
  */
-import { TVShow, ITVShowRepository } from "@domain";
+import { TVShow, ITVShowRepository } from "@/domain";
 import { IUseCase } from "../IUseCase";
 
 export interface UpdateTVShowRequest {

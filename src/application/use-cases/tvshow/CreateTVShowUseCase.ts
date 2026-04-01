@@ -2,7 +2,7 @@
  * Use Case: Create TVShow
  * Responsável por criar um novo TVShow
  */
-import { TVShow, ITVShowRepository } from "@domain";
+import { TVShow, ITVShowRepository } from "@/domain";
 import { IUseCase } from "../IUseCase";
 
 export interface CreateTVShowRequest {

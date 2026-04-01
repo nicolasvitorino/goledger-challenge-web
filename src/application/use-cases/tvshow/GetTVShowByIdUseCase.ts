@@ -2,7 +2,7 @@
  * Use Case: Get TVShow by ID
  * Responsável por buscar um TVShow específico
  */
-import { TVShow, ITVShowRepository } from "@domain";
+import { TVShow, ITVShowRepository } from "@/domain";
 import { IUseCase } from "../IUseCase";
 
 export interface GetTVShowByIdRequest {

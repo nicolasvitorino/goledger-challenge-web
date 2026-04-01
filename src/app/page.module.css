@@ -1,0 +1,82 @@
+.container {
+  min-height: 100vh;
+  padding: 2rem;
+  background: radial-gradient(
+    circle at top left,
+    #f4efe6 0%,
+    #e8edf5 45%,
+    #d9e3f0 100%
+  );
+  color: #1f2a37;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  margin-bottom: 1.5rem;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: 0.02em;
+}
+
+.header p {
+  margin-top: 0.3rem;
+  color: #3f4d61;
+}
+
+.content {
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(31, 42, 55, 0.12);
+  border-radius: 16px;
+  padding: 1rem;
+  backdrop-filter: blur(4px);
+}
+
+.sectionTitleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid rgba(31, 42, 55, 0.15);
+  background: #ffffff;
+}
+
+.card h3 {
+  margin: 0 0 0.4rem;
+}
+
+.card p {
+  margin: 0;
+  color: #4b5565;
+}
+
+.meta {
+  margin-top: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: #66758b;
+}
+
+.emptyState {
+  padding: 1.4rem;
+  border-radius: 10px;
+  border: 1px dashed #9fb2c7;
+  background: #f9fbff;
+}

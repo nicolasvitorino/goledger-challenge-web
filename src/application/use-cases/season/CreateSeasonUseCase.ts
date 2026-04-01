@@ -1,7 +1,7 @@
 /**
  * Use Case: Create Season
  */
-import { Season, ISeasonRepository } from "@domain";
+import { Season, ISeasonRepository } from "@/domain";
 import { IUseCase } from "../IUseCase";
 
 export interface CreateSeasonRequest {

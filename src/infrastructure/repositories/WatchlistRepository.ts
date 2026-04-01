@@ -1,7 +1,7 @@
 /**
  * Implementação do Repository para Watchlist
  */
-import { Watchlist, IWatchlistRepository } from "@domain";
+import { Watchlist, IWatchlistRepository } from "@/domain";
 import { HttpClient } from "../http/HttpClient";
 
 export class WatchlistRepository implements IWatchlistRepository {

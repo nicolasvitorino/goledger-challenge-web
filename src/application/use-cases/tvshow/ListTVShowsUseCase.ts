@@ -2,7 +2,7 @@
  * Use Case: List All TVShows
  * Responsável por listar todos os TVShows
  */
-import { TVShow, ITVShowRepository } from "@domain";
+import { TVShow, ITVShowRepository } from "@/domain";
 import { IUseCase } from "../IUseCase";
 
 export interface ListTVShowsRequest {

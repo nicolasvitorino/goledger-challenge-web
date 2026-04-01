@@ -1,7 +1,7 @@
 /**
  * Implementação do Repository para Season
  */
-import { Season, ISeasonRepository } from "@domain";
+import { Season, ISeasonRepository } from "@/domain";
 import { HttpClient } from "../http/HttpClient";
 
 export class SeasonRepository implements ISeasonRepository {

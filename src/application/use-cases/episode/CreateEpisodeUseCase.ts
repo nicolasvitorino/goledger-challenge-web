@@ -1,7 +1,7 @@
 /**
  * Use Case: Create Episode
  */
-import { Episode, IEpisodeRepository } from "@domain";
+import { Episode, IEpisodeRepository } from "@/domain";
 import { IUseCase } from "../IUseCase";
 
 export interface CreateEpisodeRequest {

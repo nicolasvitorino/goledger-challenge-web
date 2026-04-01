@@ -2,7 +2,7 @@
  * Use Case: Search TVShows
  * Responsável por buscar TVShows com critérios específicos
  */
-import { TVShow, ITVShowRepository } from "@domain";
+import { TVShow, ITVShowRepository } from "@/domain";
 import { IUseCase } from "../IUseCase";
 
 export interface SearchTVShowsRequest {
