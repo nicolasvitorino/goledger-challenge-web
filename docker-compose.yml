@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: goledger-challenge-web
+    ports:
+      - "3000:3000"
+    environment:
+      NEXT_PUBLIC_API_URL: http://ec2-50-19-36-138.compute-1.amazonaws.com
+      NEXT_PUBLIC_API_USERNAME: goledger
+      NEXT_PUBLIC_API_PASSWORD: 5NxVCAjC
+    restart: unless-stopped
