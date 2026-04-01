@@ -2,10 +2,10 @@ export {
   CreateSeasonUseCase,
   type CreateSeasonRequest,
   type CreateSeasonResponse,
-} from './CreateSeasonUseCase';
+} from "./CreateSeasonUseCase";
 
 export {
   ListSeasonsByTVShowUseCase,
   type ListSeasonsByTVShowRequest,
   type ListSeasonsByTVShowResponse,
-} from './ListSeasonsByTVShowUseCase';
+} from "./ListSeasonsByTVShowUseCase";

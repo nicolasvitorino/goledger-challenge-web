@@ -34,6 +34,47 @@
   backdrop-filter: blur(4px);
 }
 
+.createForm {
+  display: grid;
+  gap: 0.6rem;
+  padding: 0.9rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(31, 42, 55, 0.15);
+  border-radius: 12px;
+  background: #fff;
+}
+
+.createForm h2 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.formRow {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+.createForm input,
+.createForm textarea,
+.inlineForm input {
+  border: 1px solid #c9d4e3;
+  border-radius: 8px;
+  padding: 0.55rem 0.65rem;
+  font-size: 0.9rem;
+}
+
+.createForm button,
+.inlineForm button,
+.deleteButton {
+  border: none;
+  border-radius: 8px;
+  padding: 0.55rem 0.8rem;
+  background: #1f4f84;
+  color: #fff;
+  cursor: pointer;
+}
+
 .sectionTitleRow {
   display: flex;
   justify-content: space-between;
@@ -74,9 +115,27 @@
   color: #66758b;
 }
 
+.inlineForm {
+  margin-top: 0.8rem;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.deleteButton {
+  margin-top: 0.55rem;
+  width: 100%;
+  background: #9d2f2f;
+}
+
 .emptyState {
   padding: 1.4rem;
   border-radius: 10px;
   border: 1px dashed #9fb2c7;
   background: #f9fbff;
+}
+
+@media (max-width: 800px) {
+  .formRow {
+    grid-template-columns: 1fr;
+  }
 }

@@ -2,10 +2,10 @@ export {
   AddToWatchlistUseCase,
   type AddToWatchlistRequest,
   type AddToWatchlistResponse,
-} from './AddToWatchlistUseCase';
+} from "./AddToWatchlistUseCase";
 
 export {
   ListUserWatchlistUseCase,
   type ListUserWatchlistRequest,
   type ListUserWatchlistResponse,
-} from './ListUserWatchlistUseCase';
+} from "./ListUserWatchlistUseCase";
