@@ -5,8 +5,8 @@ export const API_CONFIG = {
   BASE_URL:
     process.env.NEXT_PUBLIC_API_URL ||
     "http://ec2-50-19-36-138.compute-1.amazonaws.com",
-  USERNAME: process.env.NEXT_PUBLIC_API_USERNAME || "goledger",
-  PASSWORD: process.env.NEXT_PUBLIC_API_PASSWORD || "5NxVCAjC",
+  USERNAME: process.env.NEXT_PUBLIC_API_USERNAME || "",
+  PASSWORD: process.env.NEXT_PUBLIC_API_PASSWORD || "",
 };
 
 /**

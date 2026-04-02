@@ -55,6 +55,19 @@ Tip: to read a specific asset, you can use the `readAsset` endpoint.
 
 To complete the challenge, you must send us the link to your forked repository with the code of your application. Please, provide instructions to execute the code.
 
-//As credenciais de acesso à API são:
-Usuário: goledger
-Senha: 5NxVCAjC
+## Environment variables
+
+This project expects API configuration through environment variables.
+
+1. Copy `.env.example` to `.env`.
+2. Fill the values with the credentials received by email.
+
+Required variables:
+
+```bash
+NEXT_PUBLIC_API_URL=http://ec2-50-19-36-138.compute-1.amazonaws.com
+NEXT_PUBLIC_API_USERNAME=your-username
+NEXT_PUBLIC_API_PASSWORD=your-password
+```
+
+Note: Avoid committing real credentials to the repository.
